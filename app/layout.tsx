@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: "FlexCharge 6-in-1 Cable — One Cable. Every Device.",
   description:
-    "The FlexCharge 6-in-1 Cable charges iPhone, Android, iPad, and more with one compact, premium braided cable. Free delivery across Nepal. Cash on Delivery.",
+    "The only charging cable you'll ever need. Charges iPhone, Android, iPad, and more. Free delivery across Nepal. Cash on Delivery.",
 };
 
 export default function RootLayout({
@@ -13,10 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col" style={{ backgroundColor: '#0A0A0A', color: '#ffffff' }}>
-        {children}
-      </body>
+    <html lang="en" className={`${inter.variable} scroll-smooth`}>
+      <body className="bg-black text-white antialiased">{children}</body>
     </html>
   );
 }
