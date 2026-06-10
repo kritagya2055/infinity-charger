@@ -2,7 +2,6 @@ import Navbar from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
 import StatementSection from '@/components/StatementSection';
 import ProductShowcase from '@/components/ProductShowcase';
-import ImageCarousel from '@/components/ImageCarousel';
 import FeaturesSection from '@/components/FeaturesSection';
 import LifestyleImage from '@/components/LifestyleImage';
 import TestimonialsSection from '@/components/TestimonialsSection';
@@ -17,7 +16,6 @@ export default function Home() {
       <HeroSection />
       <StatementSection />
       <ProductShowcase />
-      <ImageCarousel />
       <FeaturesSection />
       <LifestyleImage />
       <TestimonialsSection />
