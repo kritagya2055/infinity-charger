@@ -6,9 +6,6 @@ import { motion, useInView, AnimatePresence } from 'framer-motion';
 const images = [
   { src: '/images/product_1.png', alt: 'FlexCharge cable view 1' },
   { src: '/images/product_2.png', alt: 'FlexCharge cable view 2' },
-  { src: '/images/product_3.png', alt: 'FlexCharge cable view 3' },
-  { src: '/images/product_4.png', alt: 'FlexCharge cable view 4' },
-  { src: '/images/product_5.png', alt: 'FlexCharge cable view 5' },
 ];
 
 export default function ImageCarousel() {
@@ -27,7 +24,7 @@ export default function ImageCarousel() {
   return (
     <section
       ref={ref}
-      className="bg-black py-28 px-6"
+      className="bg-black py-16 px-6"
       style={{ borderTop: '1px solid #1A1A1A' }}
     >
       <div className="max-w-7xl mx-auto">
@@ -35,7 +32,7 @@ export default function ImageCarousel() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="mb-16 text-center"
+          className="mb-10 text-center"
         >
           <p className="text-xs tracking-[0.25em] mb-4" style={{ color: '#888888' }}>
             PRODUCT GALLERY

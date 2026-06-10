@@ -25,7 +25,7 @@ export default function FinalCTA() {
   return (
     <section
       ref={ref}
-      className="bg-black py-40 px-6 text-center"
+      className="bg-black py-20 px-6 text-center"
       style={{ borderTop: '1px solid #1A1A1A' }}
     >
       <div className="max-w-3xl mx-auto">
@@ -33,7 +33,7 @@ export default function FinalCTA() {
           initial={{ opacity: 0, y: 40 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
-          className="text-6xl md:text-8xl font-bold text-white tracking-tight mb-6"
+          className="text-6xl md:text-8xl font-bold text-white tracking-tight mb-4"
         >
           Ready to Order?
         </motion.h2>
@@ -41,7 +41,7 @@ export default function FinalCTA() {
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-base mb-12"
+          className="text-base mb-8"
           style={{ color: '#888888' }}
         >
           Free delivery across Nepal. Cash on Delivery.

@@ -11,7 +11,7 @@ export default function StatementSection() {
     <section
       ref={ref}
       className="bg-black w-full flex flex-col items-center justify-center text-center"
-      style={{ padding: '140px 24px' }}
+      style={{ padding: '80px 24px' }}
     >
       <motion.h2
         initial={{ opacity: 0, y: 40 }}

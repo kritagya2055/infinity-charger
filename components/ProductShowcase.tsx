@@ -61,7 +61,7 @@ export default function ProductShowcase() {
           initial={{ opacity: 0, x: 30 }}
           animate={inView ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-          className="flex flex-col justify-center px-10 md:px-16 py-20 bg-black"
+          className="flex flex-col justify-center px-10 md:px-16 py-14 bg-black"
         >
           <p className="text-xs tracking-[0.3em] mb-8" style={{ color: '#888888' }}>
             FLEXCHARGE 6-IN-1

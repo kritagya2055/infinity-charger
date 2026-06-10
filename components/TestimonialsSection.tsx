@@ -25,7 +25,7 @@ export default function TestimonialsSection() {
   return (
     <section
       ref={ref}
-      className="w-full py-28 px-6"
+      className="w-full py-16 px-6"
       style={{ backgroundColor: '#080808', borderTop: '1px solid #1A1A1A' }}
     >
       <div className="max-w-7xl mx-auto">
@@ -33,7 +33,7 @@ export default function TestimonialsSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="text-center mb-20"
+          className="text-center mb-12"
         >
           <p className="text-xs tracking-[0.25em] mb-4" style={{ color: '#888888' }}>
             WHAT PEOPLE SAY
@@ -51,10 +51,10 @@ export default function TestimonialsSection() {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.7, delay: i * 0.12 }}
             >
-              <p className="text-5xl text-white font-serif leading-none mb-6" style={{ lineHeight: 1, opacity: 0.3 }}>
+              <p className="text-5xl text-white font-serif leading-none mb-4" style={{ lineHeight: 1, opacity: 0.3 }}>
                 "
               </p>
-              <p className="text-base text-white leading-relaxed mb-8 font-light">
+              <p className="text-base text-white leading-relaxed mb-6 font-light">
                 {t.text}
               </p>
               <p className="text-xs tracking-widest mb-2" style={{ color: '#888888' }}>

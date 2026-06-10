@@ -58,7 +58,7 @@ export default function FeaturesSection() {
   return (
     <section
       ref={ref}
-      className="bg-black py-28 px-6 md:px-16"
+      className="bg-black py-16 px-6 md:px-16"
       style={{ borderTop: '1px solid #1A1A1A' }}
     >
       <div className="max-w-7xl mx-auto">
@@ -67,7 +67,7 @@ export default function FeaturesSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
-          className="mb-20"
+          className="mb-12"
         >
           <p className="text-xs tracking-[0.25em] mb-4" style={{ color: '#888888' }}>
             WHY FLEXCHARGE
@@ -78,7 +78,7 @@ export default function FeaturesSection() {
         </motion.div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-12 mb-14">
           {features.map((f, i) => (
             <motion.div
               key={f.title}
