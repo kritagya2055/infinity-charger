@@ -43,7 +43,7 @@ export default function ProductShowcase() {
           }}
         >
           <img
-            src="/images/product_showcase.png"
+            src="/product_showcase.png"
             alt="FlexCharge 6-in-1 Cable on dark stone"
             className="absolute inset-0 w-full h-full object-cover object-center"
           />

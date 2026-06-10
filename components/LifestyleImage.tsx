@@ -16,7 +16,7 @@ export default function LifestyleImage() {
         className="w-full overflow-hidden"
       >
         <img
-          src="/images/lifestyle_image.png"
+          src="/lifestyle_image.png"
           alt="FlexCharge cable on carbon fiber desk with MacBook and iPhone"
           className="w-full object-cover"
           style={{

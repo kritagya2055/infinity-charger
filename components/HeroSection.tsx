@@ -26,7 +26,7 @@ export default function HeroSection() {
     >
       {/* Hero image — fills full viewport, no overlay */}
       <img
-        src="/images/hero_image.png"
+        src="/hero_image.png"
         alt="FlexCharge 6-in-1 Cable"
         className="absolute inset-0 w-full h-full object-cover object-center"
         style={{ zIndex: 1 }}

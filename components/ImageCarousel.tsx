@@ -4,8 +4,8 @@ import { useState, useRef } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 
 const images = [
-  { src: '/images/product_1.png', alt: 'FlexCharge cable view 1' },
-  { src: '/images/product_2.png', alt: 'FlexCharge cable view 2' },
+  { src: '/product_1.png', alt: 'FlexCharge cable view 1' },
+  { src: '/product_2.png', alt: 'FlexCharge cable view 2' },
 ];
 
 export default function ImageCarousel() {
